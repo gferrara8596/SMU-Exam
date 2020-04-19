@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/claud/ontologies/2019/2/untitled-ontology-15"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/claud/ontologies/2019/2/untitled-ontology-15">
+    <Prefix name="" IRI="http://www.semanticweb.org/claud/ontologies/2019/2/untitled-ontology-15#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Athlets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Categories"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Light_Athletics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Martial_Sport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nature_Sport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Team_Sport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Types"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Water_Sport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Winter_Sport"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#free_body"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#with_equipment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amateur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Basketball"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boxing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Canoeing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cycling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fishing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Football"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Handball"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ice_Hockey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Individuals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Judo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jumping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Karate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Long_Distance_Running"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Professional"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Relay_Racing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rock_Climbing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sailing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ski_Jump"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Skiing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Snowboarding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Speed_Walking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Surfing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Swimming"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Team"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Valleyball"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Windsurfing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wrestilng"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Athlets"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Categories"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Light_Athletics"/>
+        <Class IRI="#Categories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Martial_Sport"/>
+        <Class IRI="#Categories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nature_Sport"/>
+        <Class IRI="#Categories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Team_Sport"/>
+        <Class IRI="#Categories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Types"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Water_Sport"/>
+        <Class IRI="#Categories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Winter_Sport"/>
+        <Class IRI="#Categories"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Athlets"/>
+        <NamedIndividual IRI="#Amateur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team_Sport"/>
+        <NamedIndividual IRI="#Basketball"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Martial_Sport"/>
+        <NamedIndividual IRI="#Boxing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Water_Sport"/>
+        <NamedIndividual IRI="#Canoeing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nature_Sport"/>
+        <NamedIndividual IRI="#Cycling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nature_Sport"/>
+        <NamedIndividual IRI="#Fishing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team_Sport"/>
+        <NamedIndividual IRI="#Football"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team_Sport"/>
+        <NamedIndividual IRI="#Handball"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Winter_Sport"/>
+        <NamedIndividual IRI="#Ice_Hockey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Types"/>
+        <NamedIndividual IRI="#Individuals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Martial_Sport"/>
+        <NamedIndividual IRI="#Judo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Light_Athletics"/>
+        <NamedIndividual IRI="#Jumping"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Martial_Sport"/>
+        <NamedIndividual IRI="#Karate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Light_Athletics"/>
+        <NamedIndividual IRI="#Long_Distance_Running"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Athlets"/>
+        <NamedIndividual IRI="#Professional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Light_Athletics"/>
+        <NamedIndividual IRI="#Relay_Racing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nature_Sport"/>
+        <NamedIndividual IRI="#Rock_Climbing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Water_Sport"/>
+        <NamedIndividual IRI="#Sailing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Winter_Sport"/>
+        <NamedIndividual IRI="#Ski_Jump"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Winter_Sport"/>
+        <NamedIndividual IRI="#Skiing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Winter_Sport"/>
+        <NamedIndividual IRI="#Snowboarding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Light_Athletics"/>
+        <NamedIndividual IRI="#Speed_Walking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Water_Sport"/>
+        <NamedIndividual IRI="#Surfing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Water_Sport"/>
+        <NamedIndividual IRI="#Swimming"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Types"/>
+        <NamedIndividual IRI="#Team"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team_Sport"/>
+        <NamedIndividual IRI="#Valleyball"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Water_Sport"/>
+        <NamedIndividual IRI="#Windsurfing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Martial_Sport"/>
+        <NamedIndividual IRI="#Wrestilng"/>
+    </ClassAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

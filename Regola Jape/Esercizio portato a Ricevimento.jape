@@ -1,0 +1,14 @@
+Phase: passaggio1
+Input: Token Lookup
+Options: control = appelt
+
+Rule: DateFind
+(
+{Token.string == "Napoli"}
+{Token.string == ","}
+{Token.string == "lì"}
+{Lookup.majorType == year}
+{Lookup.minorType == month}
+):label
+-->
+:label.pattern = {rule = "DateFind"}
